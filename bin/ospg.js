@@ -11,7 +11,7 @@
   const error = chalk.bold.red;
   const success = chalk.bold.green;
   const doing = chalk.bold.blue;
-  program.version("1.0.0");
+  program.version("1.0.1");
 
   program
     .option("-u, --update", "更新开源协议(未实现)")

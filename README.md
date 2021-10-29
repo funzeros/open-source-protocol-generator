@@ -17,6 +17,7 @@
 - `-u`或`--update` 更新开源协议(未实现)
 - `-d`或`--drop`  不保留原开源协议
 - `-a <auth>`或`--auth <auth>` 协议所有者姓名
+- `-e <emil>`或`--emil <emil>` 协议所有者邮箱
 - `-n <name>`或`--name <name>` 指定开源协议名称(模糊匹配)
 - `-p <path>`或`--path <path>` 协议生成绝对路径
   

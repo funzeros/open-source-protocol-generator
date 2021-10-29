@@ -14,13 +14,11 @@
   program.version("1.0.0");
 
   program
-    .option("-u, --update", "更新开源协议（未实现）")
+    .option("-u, --update", "更新开源协议(未实现)")
     .option("-d, --drop", "不保留原开源协议")
-    .option("-a", "--auth <auth>", "协议所有者姓名")
-    .option("-n, --name <name>", "指定开源协议名称")
-    .option("-g, --guide", "许可证向导（未实现）")
-    .option("-p, --path <path>", "协议生成绝对路径")
-    .option("-l, --ls", "查看所有协议");
+    .option("-a, --auth <auth>", "协议所有者姓名")
+    .option("-n, --name <name>", "指定开源协议名称(模糊匹配)")
+    .option("-p, --path <path>", "协议生成绝对路径");
 
   program.parse(process.argv);
   const options = program.opts();

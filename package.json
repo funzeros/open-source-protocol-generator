@@ -1,6 +1,6 @@
 {
   "name": "ospg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Open Source protocol Generator",
   "main": "./bin/ospg.js",
   "bin": {

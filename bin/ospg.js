@@ -11,7 +11,7 @@
   const error = chalk.bold.red;
   const success = chalk.bold.green;
   const doing = chalk.bold.blue;
-  program.version("1.0.1");
+  program.version("1.0.2");
 
   program
     .option("-u, --update", "更新开源协议(未实现)")
@@ -26,7 +26,8 @@
   let licenseFiles = fs.readdirSync(licensePath);
   if (name) {
     licenseFiles = licenseFiles.filter(
-      (fileName) => fileName.indexOf(name) > -1
+      (fileName) =>
+        fileName.toLocaleUpperCase().indexOf(name.toLocaleUpperCase()) > -1
     );
     if (!licenseFiles.length) {
       console.log(error("此开源协议不存在,请检查协议名称输入是否有误"));

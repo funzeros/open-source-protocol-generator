@@ -1,0 +1,28 @@
+{
+  "name": "ospg",
+  "version": "1.0.0",
+  "description": "Open Source protocol Generator",
+  "main": "./bin/ospg.js",
+  "bin": {
+    "ospg": "./bin/ospg.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "license",
+    "generator",
+    "open",
+    "source"
+  ],
+  "author": "Gems",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0"
+  },
+  "files": [
+    "bin",
+    "licenseLib",
+    "config.json"
+  ]
+}
